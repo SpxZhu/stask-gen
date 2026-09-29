@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务指令优化"
+  short_description: "将开发需求整理为可执行、可验收、可收敛的任务指令"
+  default_prompt: "使用 $stask-gen 整理以下开发需求，只生成任务指令。"
+policy:
+  allow_implicit_invocation: false
